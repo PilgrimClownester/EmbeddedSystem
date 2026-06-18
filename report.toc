@@ -1,0 +1,55 @@
+\contentsline {chapter}{\numberline {第一章\hspace {.3em}}项目背景与产品概述}{2}{chapter.1}%
+\contentsline {section}{\numberline {1.1}研究对象与分析范围}{2}{section.1.1}%
+\contentsline {section}{\numberline {1.2}产品定位与嵌入式属性}{2}{section.1.2}%
+\contentsline {section}{\numberline {1.3}资料来源与分析边界}{3}{section.1.3}%
+\contentsline {chapter}{\numberline {第二章\hspace {.3em}}需求分析}{4}{chapter.2}%
+\contentsline {section}{\numberline {2.1}功能需求}{4}{section.2.1}%
+\contentsline {section}{\numberline {2.2}非功能需求}{5}{section.2.2}%
+\contentsline {section}{\numberline {2.3}需求到嵌入式系统指标的映射}{5}{section.2.3}%
+\contentsline {chapter}{\numberline {第三章\hspace {.3em}}系统总体结构}{7}{chapter.3}%
+\contentsline {section}{\numberline {3.1}系统总体架构}{7}{section.3.1}%
+\contentsline {section}{\numberline {3.2}软硬件协同结构}{7}{section.3.2}%
+\contentsline {section}{\numberline {3.3}硬件结构概述}{8}{section.3.3}%
+\contentsline {section}{\numberline {3.4}软件结构概述}{8}{section.3.4}%
+\contentsline {section}{\numberline {3.5}关键构件说明}{9}{section.3.5}%
+\contentsline {chapter}{\numberline {第四章\hspace {.3em}}硬件系统设计}{11}{chapter.4}%
+\contentsline {section}{\numberline {4.1}硬件系统框图}{11}{section.4.1}%
+\contentsline {section}{\numberline {4.2}上位计算平台 SBC}{12}{section.4.2}%
+\contentsline {section}{\numberline {4.3}底层实时控制板 STM32F4}{12}{section.4.3}%
+\contentsline {section}{\numberline {4.4}传感器系统}{12}{section.4.4}%
+\contentsline {section}{\numberline {4.5}执行器系统}{13}{section.4.5}%
+\contentsline {section}{\numberline {4.6}电源管理系统}{13}{section.4.6}%
+\contentsline {section}{\numberline {4.7}通信接口系统}{14}{section.4.7}%
+\contentsline {chapter}{\numberline {第五章\hspace {.3em}}嵌入式处理器分析}{15}{chapter.5}%
+\contentsline {section}{\numberline {5.1}处理器总体架构}{15}{section.5.1}%
+\contentsline {section}{\numberline {5.2}SBC 上位计算平台分析}{16}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}SBC 的系统作用}{16}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}SBC 的典型处理器平台}{16}{subsection.5.2.2}%
+\contentsline {subsection}{\numberline {5.2.3}SBC 内部结构分析}{17}{subsection.5.2.3}%
+\contentsline {subsection}{\numberline {5.2.4}Cortex-A 系列内核与指令集架构}{18}{subsection.5.2.4}%
+\contentsline {subsection}{\numberline {5.2.5}SBC 的外设能力说明}{18}{subsection.5.2.5}%
+\contentsline {section}{\numberline {5.3}STM32F4 底层控制处理器分析}{19}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}STM32F4 的系统作用}{19}{subsection.5.3.1}%
+\contentsline {subsection}{\numberline {5.3.2}STM32F4 内部结构分析}{20}{subsection.5.3.2}%
+\contentsline {subsection}{\numberline {5.3.3}Cortex-M4 内核与指令集架构}{22}{subsection.5.3.3}%
+\contentsline {subsection}{\numberline {5.3.4}STM32F4 内部组件与机器人任务的对应关系}{22}{subsection.5.3.4}%
+\contentsline {section}{\numberline {5.4}SBC 与 STM32F4 的协同工作机制}{23}{section.5.4}%
+\contentsline {section}{\numberline {5.5}处理器内部接口与外设能力分析}{24}{section.5.5}%
+\contentsline {subsection}{\numberline {5.5.1}SBC 内部接口关系}{24}{subsection.5.5.1}%
+\contentsline {subsection}{\numberline {5.5.2}STM32F4 内部接口关系}{24}{subsection.5.5.2}%
+\contentsline {section}{\numberline {5.6}处理器架构合理性分析}{24}{section.5.6}%
+\contentsline {section}{\numberline {5.7}本章小结}{25}{section.5.7}%
+\contentsline {chapter}{\numberline {第六章\hspace {.3em}}接口分析}{26}{chapter.6}%
+\contentsline {section}{\numberline {6.1}接口分析范围与总体原则}{26}{section.6.1}%
+\contentsline {section}{\numberline {6.2}SBC 与 STM32F4 控制板接口}{27}{section.6.2}%
+\contentsline {section}{\numberline {6.3}STM32F4 与电机驱动器接口}{28}{section.6.3}%
+\contentsline {section}{\numberline {6.4}STM32F4 与编码器接口}{29}{section.6.4}%
+\contentsline {section}{\numberline {6.5}STM32F4 与 IMU 及底层传感器接口}{29}{section.6.5}%
+\contentsline {section}{\numberline {6.6}SBC 与 LiDAR、深度相机等感知设备接口}{29}{section.6.6}%
+\contentsline {section}{\numberline {6.7}电源管理接口}{30}{section.6.7}%
+\contentsline {section}{\numberline {6.8}外设扩展接口}{30}{section.6.8}%
+\contentsline {section}{\numberline {6.9}本章小结}{31}{section.6.9}%
+\contentsline {chapter}{\numberline {第七章\hspace {.3em}}软件系统设计}{32}{chapter.7}%
+\contentsline {chapter}{\numberline {第八章\hspace {.3em}}关键工作流程}{33}{chapter.8}%
+\contentsline {chapter}{\numberline {第九章\hspace {.3em}}总结}{34}{chapter.9}%
+\contentsline {chapter}{参考资料}{35}{chapter*.12}%
