@@ -1,91 +1,91 @@
-\contentsline {chapter}{\numberline {第一章\hspace {.3em}}项目背景与产品概述}{4}{chapter.1}%
-\contentsline {section}{\numberline {1.1}研究对象与分析范围}{4}{section.1.1}%
-\contentsline {section}{\numberline {1.2}产品定位与嵌入式属性}{4}{section.1.2}%
-\contentsline {section}{\numberline {1.3}资料来源与分析边界}{5}{section.1.3}%
-\contentsline {chapter}{\numberline {第二章\hspace {.3em}}需求分析}{6}{chapter.2}%
-\contentsline {section}{\numberline {2.1}功能需求}{6}{section.2.1}%
-\contentsline {section}{\numberline {2.2}非功能需求}{7}{section.2.2}%
-\contentsline {section}{\numberline {2.3}需求到嵌入式系统指标的映射}{7}{section.2.3}%
-\contentsline {chapter}{\numberline {第三章\hspace {.3em}}系统总体结构}{9}{chapter.3}%
-\contentsline {section}{\numberline {3.1}系统总体架构}{9}{section.3.1}%
-\contentsline {section}{\numberline {3.2}软硬件协同结构}{9}{section.3.2}%
-\contentsline {section}{\numberline {3.3}硬件结构概述}{10}{section.3.3}%
-\contentsline {section}{\numberline {3.4}软件结构概述}{10}{section.3.4}%
-\contentsline {section}{\numberline {3.5}关键构件说明}{11}{section.3.5}%
-\contentsline {chapter}{\numberline {第四章\hspace {.3em}}硬件系统设计}{13}{chapter.4}%
-\contentsline {section}{\numberline {4.1}硬件系统框图}{13}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}硬件系统设计目标}{13}{subsection.4.1.1}%
-\contentsline {section}{\numberline {4.2}上位计算平台 SBC}{14}{section.4.2}%
-\contentsline {section}{\numberline {4.3}底层实时控制板 STM32F4}{14}{section.4.3}%
-\contentsline {section}{\numberline {4.4}传感器系统}{15}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}电机编码器}{15}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2}IMU 姿态传感器}{15}{subsection.4.4.2}%
-\contentsline {subsection}{\numberline {4.4.3}可扩展 LiDAR}{16}{subsection.4.4.3}%
-\contentsline {subsection}{\numberline {4.4.4}可扩展深度相机或 RGB-D 相机}{16}{subsection.4.4.4}%
-\contentsline {subsection}{\numberline {4.4.5}传感器系统小结}{16}{subsection.4.4.5}%
-\contentsline {section}{\numberline {4.5}执行器系统}{16}{section.4.5}%
-\contentsline {subsection}{\numberline {4.5.1}直流电机}{17}{subsection.4.5.1}%
-\contentsline {subsection}{\numberline {4.5.2}电机驱动模块}{17}{subsection.4.5.2}%
-\contentsline {subsection}{\numberline {4.5.3}RGB 指示灯}{17}{subsection.4.5.3}%
-\contentsline {subsection}{\numberline {4.5.4}扬声器}{17}{subsection.4.5.4}%
-\contentsline {subsection}{\numberline {4.5.5}可扩展执行器}{18}{subsection.4.5.5}%
-\contentsline {subsection}{\numberline {4.5.6}执行器系统小结}{18}{subsection.4.5.6}%
-\contentsline {section}{\numberline {4.6}电源管理系统}{18}{section.4.6}%
-\contentsline {subsection}{\numberline {4.6.1}电池系统}{18}{subsection.4.6.1}%
-\contentsline {subsection}{\numberline {4.6.2}Power Board 电源管理板}{18}{subsection.4.6.2}%
-\contentsline {subsection}{\numberline {4.6.3}电源安全与状态监测}{19}{subsection.4.6.3}%
-\contentsline {section}{\numberline {4.7}通信接口系统}{19}{section.4.7}%
-\contentsline {section}{\numberline {4.8}硬件系统特点分析}{19}{section.4.8}%
-\contentsline {subsection}{\numberline {4.8.1}分层结构清晰}{19}{subsection.4.8.1}%
-\contentsline {subsection}{\numberline {4.8.2}实时控制与高层计算分离}{20}{subsection.4.8.2}%
-\contentsline {subsection}{\numberline {4.8.3}扩展性较强}{20}{subsection.4.8.3}%
-\contentsline {subsection}{\numberline {4.8.4}适合室内自主移动场景}{20}{subsection.4.8.4}%
-\contentsline {section}{\numberline {4.9}本章小结}{20}{section.4.9}%
-\contentsline {chapter}{\numberline {第五章\hspace {.3em}}嵌入式处理器分析}{21}{chapter.5}%
-\contentsline {section}{\numberline {5.1}处理器总体架构}{21}{section.5.1}%
-\contentsline {section}{\numberline {5.2}SBC 上位计算平台分析}{22}{section.5.2}%
-\contentsline {subsection}{\numberline {5.2.1}SBC 的系统作用}{22}{subsection.5.2.1}%
-\contentsline {subsection}{\numberline {5.2.2}SBC 的典型处理器平台}{22}{subsection.5.2.2}%
-\contentsline {subsection}{\numberline {5.2.3}SBC 内部结构分析}{22}{subsection.5.2.3}%
-\contentsline {subsection}{\numberline {5.2.4}Cortex-A 系列内核与指令集架构}{24}{subsection.5.2.4}%
-\contentsline {subsection}{\numberline {5.2.5}SBC 的外设能力说明}{25}{subsection.5.2.5}%
-\contentsline {section}{\numberline {5.3}STM32F4 底层控制处理器分析}{26}{section.5.3}%
-\contentsline {subsection}{\numberline {5.3.1}STM32F4 的系统作用}{26}{subsection.5.3.1}%
-\contentsline {subsection}{\numberline {5.3.2}STM32F4 内部结构分析}{26}{subsection.5.3.2}%
-\contentsline {subsection}{\numberline {5.3.3}Cortex-M4 内核与指令集架构}{28}{subsection.5.3.3}%
-\contentsline {subsection}{\numberline {5.3.4}STM32F4 内部组件与机器人任务的对应关系}{29}{subsection.5.3.4}%
-\contentsline {section}{\numberline {5.4}SBC 与 STM32F4 的协同工作机制}{30}{section.5.4}%
-\contentsline {section}{\numberline {5.5}处理器内部接口与外设能力分析}{30}{section.5.5}%
-\contentsline {subsection}{\numberline {5.5.1}SBC 内部接口关系}{30}{subsection.5.5.1}%
-\contentsline {subsection}{\numberline {5.5.2}STM32F4 内部接口关系}{31}{subsection.5.5.2}%
-\contentsline {section}{\numberline {5.6}处理器架构合理性分析}{31}{section.5.6}%
-\contentsline {section}{\numberline {5.7}本章小结}{31}{section.5.7}%
-\contentsline {chapter}{\numberline {第六章\hspace {.3em}}接口分析}{33}{chapter.6}%
-\contentsline {section}{\numberline {6.1}接口分析范围与总体原则}{33}{section.6.1}%
-\contentsline {section}{\numberline {6.2}SBC 与 STM32F4 控制板接口}{34}{section.6.2}%
-\contentsline {section}{\numberline {6.3}STM32F4 与电机驱动器接口}{35}{section.6.3}%
-\contentsline {section}{\numberline {6.4}STM32F4 与编码器接口}{36}{section.6.4}%
-\contentsline {section}{\numberline {6.5}STM32F4 与 IMU 及底层传感器接口}{36}{section.6.5}%
-\contentsline {section}{\numberline {6.6}SBC 与 LiDAR、深度相机等感知设备接口}{36}{section.6.6}%
-\contentsline {section}{\numberline {6.7}电源管理接口}{37}{section.6.7}%
-\contentsline {section}{\numberline {6.8}外设扩展接口}{37}{section.6.8}%
-\contentsline {section}{\numberline {6.9}本章小结}{38}{section.6.9}%
-\contentsline {chapter}{\numberline {第七章\hspace {.3em}}软件系统设计}{39}{chapter.7}%
-\contentsline {section}{\numberline {7.1}软件系统总体架构}{39}{section.7.1}%
-\contentsline {section}{\numberline {7.2}软件层次结构}{39}{section.7.2}%
-\contentsline {section}{\numberline {7.3}操作系统与 ROS 2 软件框架}{40}{section.7.3}%
-\contentsline {section}{\numberline {7.4}ROS 2 软件包组成}{41}{section.7.4}%
-\contentsline {section}{\numberline {7.5}主要 ROS 2 节点分析}{41}{section.7.5}%
-\contentsline {section}{\numberline {7.6}ROS 2 话题与数据流分析}{42}{section.7.6}%
-\contentsline {section}{\numberline {7.7}运动控制软件流程}{44}{section.7.7}%
-\contentsline {section}{\numberline {7.8}感知与定位软件流程}{44}{section.7.8}%
-\contentsline {section}{\numberline {7.9}仿真与调试软件}{45}{section.7.9}%
-\contentsline {section}{\numberline {7.10}软件系统特点分析}{45}{section.7.10}%
-\contentsline {section}{\numberline {7.11}本章小结}{46}{section.7.11}%
-\contentsline {chapter}{\numberline {第八章\hspace {.3em}}关键工作流程}{47}{chapter.8}%
-\contentsline {section}{\numberline {8.1}自主导航流程}{47}{section.8.1}%
-\contentsline {section}{\numberline {8.2}底盘闭环控制流程}{47}{section.8.2}%
-\contentsline {section}{\numberline {8.3}电源与安全保护流程}{48}{section.8.3}%
-\contentsline {section}{\numberline {8.4}ROS 2 软件启动与调试流程}{48}{section.8.4}%
-\contentsline {chapter}{\numberline {第九章\hspace {.3em}}总结}{50}{chapter.9}%
-\contentsline {chapter}{参考资料}{51}{chapter*.18}%
+\contentsline {chapter}{\numberline {第一章\hspace {.3em}}项目背景与产品概述}{5}{chapter.1}%
+\contentsline {section}{\numberline {1.1}研究对象与分析范围}{5}{section.1.1}%
+\contentsline {section}{\numberline {1.2}产品定位与嵌入式属性}{6}{section.1.2}%
+\contentsline {section}{\numberline {1.3}资料来源与分析边界}{6}{section.1.3}%
+\contentsline {chapter}{\numberline {第二章\hspace {.3em}}需求分析}{8}{chapter.2}%
+\contentsline {section}{\numberline {2.1}功能需求}{8}{section.2.1}%
+\contentsline {section}{\numberline {2.2}非功能需求}{8}{section.2.2}%
+\contentsline {section}{\numberline {2.3}需求到嵌入式系统指标的映射}{9}{section.2.3}%
+\contentsline {chapter}{\numberline {第三章\hspace {.3em}}系统总体结构}{11}{chapter.3}%
+\contentsline {section}{\numberline {3.1}系统总体架构}{11}{section.3.1}%
+\contentsline {section}{\numberline {3.2}软硬件协同结构}{12}{section.3.2}%
+\contentsline {section}{\numberline {3.3}硬件结构概述}{13}{section.3.3}%
+\contentsline {section}{\numberline {3.4}软件结构概述}{13}{section.3.4}%
+\contentsline {section}{\numberline {3.5}关键构件说明}{14}{section.3.5}%
+\contentsline {chapter}{\numberline {第四章\hspace {.3em}}硬件系统设计}{15}{chapter.4}%
+\contentsline {section}{\numberline {4.1}硬件系统框图}{15}{section.4.1}%
+\contentsline {section}{\numberline {4.2}上位计算平台 SBC}{16}{section.4.2}%
+\contentsline {section}{\numberline {4.3}底层实时控制板 STM32F4}{16}{section.4.3}%
+\contentsline {section}{\numberline {4.4}传感器系统}{17}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}电机编码器}{17}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}IMU 姿态传感器}{17}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.4.3}可扩展 LiDAR}{18}{subsection.4.4.3}%
+\contentsline {subsection}{\numberline {4.4.4}可扩展深度相机或 RGB-D 相机}{18}{subsection.4.4.4}%
+\contentsline {subsection}{\numberline {4.4.5}传感器系统小结}{18}{subsection.4.4.5}%
+\contentsline {section}{\numberline {4.5}执行器系统}{18}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}直流电机}{19}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.5.2}电机驱动模块}{19}{subsection.4.5.2}%
+\contentsline {subsection}{\numberline {4.5.3}RGB 指示灯}{19}{subsection.4.5.3}%
+\contentsline {subsection}{\numberline {4.5.4}扬声器}{19}{subsection.4.5.4}%
+\contentsline {subsection}{\numberline {4.5.5}可扩展执行器}{20}{subsection.4.5.5}%
+\contentsline {subsection}{\numberline {4.5.6}执行器系统小结}{20}{subsection.4.5.6}%
+\contentsline {section}{\numberline {4.6}电源管理系统}{20}{section.4.6}%
+\contentsline {subsection}{\numberline {4.6.1}电池系统}{20}{subsection.4.6.1}%
+\contentsline {subsection}{\numberline {4.6.2}Power Board 电源管理板}{20}{subsection.4.6.2}%
+\contentsline {subsection}{\numberline {4.6.3}电源安全与状态监测}{21}{subsection.4.6.3}%
+\contentsline {section}{\numberline {4.7}通信接口系统}{21}{section.4.7}%
+\contentsline {section}{\numberline {4.8}硬件系统特点分析}{21}{section.4.8}%
+\contentsline {subsection}{\numberline {4.8.1}分层结构清晰}{21}{subsection.4.8.1}%
+\contentsline {subsection}{\numberline {4.8.2}实时控制与高层计算分离}{22}{subsection.4.8.2}%
+\contentsline {subsection}{\numberline {4.8.3}扩展性较强}{22}{subsection.4.8.3}%
+\contentsline {subsection}{\numberline {4.8.4}适合室内自主移动场景}{22}{subsection.4.8.4}%
+\contentsline {section}{\numberline {4.9}本章小结}{22}{section.4.9}%
+\contentsline {chapter}{\numberline {第五章\hspace {.3em}}嵌入式处理器分析}{23}{chapter.5}%
+\contentsline {section}{\numberline {5.1}处理器总体架构}{23}{section.5.1}%
+\contentsline {section}{\numberline {5.2}SBC 上位计算平台分析}{23}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}SBC 的系统作用}{23}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}SBC 的典型处理器平台}{24}{subsection.5.2.2}%
+\contentsline {subsection}{\numberline {5.2.3}SBC 内部结构分析}{24}{subsection.5.2.3}%
+\contentsline {subsection}{\numberline {5.2.4}Cortex-A 系列内核与指令集架构}{26}{subsection.5.2.4}%
+\contentsline {subsection}{\numberline {5.2.5}SBC 的外设能力说明}{26}{subsection.5.2.5}%
+\contentsline {section}{\numberline {5.3}STM32F4 底层控制处理器分析}{27}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}STM32F4 的系统作用}{27}{subsection.5.3.1}%
+\contentsline {subsection}{\numberline {5.3.2}STM32F4 内部结构分析}{28}{subsection.5.3.2}%
+\contentsline {subsection}{\numberline {5.3.3}Cortex-M4 内核与指令集架构}{30}{subsection.5.3.3}%
+\contentsline {subsection}{\numberline {5.3.4}STM32F4 内部组件与机器人任务的对应关系}{31}{subsection.5.3.4}%
+\contentsline {section}{\numberline {5.4}SBC 与 STM32F4 的协同工作机制}{31}{section.5.4}%
+\contentsline {section}{\numberline {5.5}处理器内部接口与外设能力分析}{32}{section.5.5}%
+\contentsline {subsection}{\numberline {5.5.1}SBC 内部接口关系}{32}{subsection.5.5.1}%
+\contentsline {subsection}{\numberline {5.5.2}STM32F4 内部接口关系}{32}{subsection.5.5.2}%
+\contentsline {section}{\numberline {5.6}处理器架构合理性分析}{33}{section.5.6}%
+\contentsline {section}{\numberline {5.7}本章小结}{33}{section.5.7}%
+\contentsline {chapter}{\numberline {第六章\hspace {.3em}}接口分析}{34}{chapter.6}%
+\contentsline {section}{\numberline {6.1}接口分析范围与总体原则}{34}{section.6.1}%
+\contentsline {section}{\numberline {6.2}SBC 与 STM32F4 控制板接口}{35}{section.6.2}%
+\contentsline {section}{\numberline {6.3}STM32F4 与电机驱动器接口}{36}{section.6.3}%
+\contentsline {section}{\numberline {6.4}STM32F4 与编码器接口}{37}{section.6.4}%
+\contentsline {section}{\numberline {6.5}STM32F4 与 IMU 及底层传感器接口}{37}{section.6.5}%
+\contentsline {section}{\numberline {6.6}SBC 与 LiDAR、深度相机等感知设备接口}{37}{section.6.6}%
+\contentsline {section}{\numberline {6.7}电源管理接口}{38}{section.6.7}%
+\contentsline {section}{\numberline {6.8}外设扩展接口}{38}{section.6.8}%
+\contentsline {section}{\numberline {6.9}本章小结}{39}{section.6.9}%
+\contentsline {chapter}{\numberline {第七章\hspace {.3em}}软件系统设计}{40}{chapter.7}%
+\contentsline {section}{\numberline {7.1}软件系统总体架构}{40}{section.7.1}%
+\contentsline {section}{\numberline {7.2}软件层次结构}{40}{section.7.2}%
+\contentsline {section}{\numberline {7.3}操作系统与 ROS 2 软件框架}{41}{section.7.3}%
+\contentsline {section}{\numberline {7.4}ROS 2 软件包组成}{42}{section.7.4}%
+\contentsline {section}{\numberline {7.5}主要 ROS 2 节点分析}{42}{section.7.5}%
+\contentsline {section}{\numberline {7.6}ROS 2 话题与数据流分析}{43}{section.7.6}%
+\contentsline {section}{\numberline {7.7}运动控制软件流程}{45}{section.7.7}%
+\contentsline {section}{\numberline {7.8}感知与定位软件流程}{46}{section.7.8}%
+\contentsline {section}{\numberline {7.9}仿真与调试软件}{46}{section.7.9}%
+\contentsline {section}{\numberline {7.10}软件系统特点分析}{47}{section.7.10}%
+\contentsline {section}{\numberline {7.11}本章小结}{47}{section.7.11}%
+\contentsline {chapter}{\numberline {第八章\hspace {.3em}}关键工作流程}{49}{chapter.8}%
+\contentsline {section}{\numberline {8.1}自主导航流程}{49}{section.8.1}%
+\contentsline {section}{\numberline {8.2}底盘闭环控制流程}{50}{section.8.2}%
+\contentsline {section}{\numberline {8.3}电源与安全保护流程}{50}{section.8.3}%
+\contentsline {section}{\numberline {8.4}ROS 2 软件启动与调试流程}{51}{section.8.4}%
+\contentsline {chapter}{\numberline {第九章\hspace {.3em}}总结}{53}{chapter.9}%
+\contentsline {chapter}{\numberline {第十章\hspace {.3em}}心得感悟}{54}{chapter.10}%
+\contentsline {chapter}{参考资料}{55}{chapter*.25}%
