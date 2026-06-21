@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2026.1.6)  19 JUN 2026 18:10
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2026.1.6)  21 JUN 2026 13:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1141,7 +1141,7 @@ File: ./assets/diagrams/ros2_startup_debug_flow.png Graphic file (type bmp)
 [53
 
 ]
-Underfull \hbox (badness 1087) in paragraph at lines 1197--1198
+Underfull \hbox (badness 1087) in paragraph at lines 1198--1199
 []\TU/lmr/m/n/12 Raspberry Pi Ltd. \TU/lmr/m/it/12 BCM2711 ARM Peripherals\TU/l
 mr/m/n/12 . [][]$[][][][][] [] [] [] [][][][][][][][][][] []
  []
@@ -1159,10 +1159,10 @@ Package rerunfilecheck Info: File `report.out' has not changed.
 (rerunfilecheck)             Checksum: A2790921BFCBDE3EAB15F6CB11B81159;11333.
  ) 
 Here is how much of TeX's memory you used:
- 28078 strings out of 473832
- 630884 string characters out of 5729482
+ 28102 strings out of 473832
+ 632694 string characters out of 5729482
  1023116 words of memory out of 5000000
- 50685 multiletter control sequences out of 15000+600000
+ 50709 multiletter control sequences out of 15000+600000
  567577 words of font info for 103 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  93i,11n,112p,522b,815s stack positions out of 10000i,1000n,20000p,200000b,200000s
